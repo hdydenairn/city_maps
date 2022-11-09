@@ -168,4 +168,8 @@ paris_metro<-ggplot() +
   theme(
     plot.background = element_rect(fill = background_color))
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7c762aa4272aa319818594cf3e15444f4a5a597f
 ggsave("paris_metro.jpeg", width=5000, height=5000, units="px")
