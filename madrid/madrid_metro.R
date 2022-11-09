@@ -134,4 +134,4 @@ madrid_dark<-ggplot() +
   theme(
     plot.background = element_rect(fill = background_color))
 
-ggsave("madrid_metro.jpeg", width=3000, height=3000, units="px")
+ggsave("madrid_metro.jpeg", width=5000, height=5000, units="px")
