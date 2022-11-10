@@ -24,6 +24,9 @@ metro_3 <- (gpe[["osm_lines"]]) %>%
 metro_4 <- (gpe[["osm_lines"]]) %>% 
   filter(name.en == "Shanghai Metro Line 4" )
 
+metro_4b <- (gpe[["osm_lines"]]) %>% 
+  filter(name.en == "Shanghai Metro Line 3/4" )
+
 metro_5 <- (gpe[["osm_lines"]]) %>% 
   filter(name.en == "Shanghai Metro Line 5" )
 
@@ -111,6 +114,16 @@ shanghai_metro <-ggplot() +
           inherit.aes = FALSE,
           color = metro4_color,
           size = .4,
+          alpha = 1) +
+  geom_sf(data = metro_4b,
+          inherit.aes = FALSE,
+          color = metro4_color,
+          size = .4,
+          alpha = 1) +
+  geom_sf(data = metro_4b,
+          inherit.aes = FALSE,
+          color = metro3_color,
+          size = .2,
           alpha = 1) +
   geom_sf(data = metro_5,
           inherit.aes = FALSE,
