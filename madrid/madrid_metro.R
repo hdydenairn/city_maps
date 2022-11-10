@@ -51,7 +51,7 @@ metro_12 <- (gpe[["osm_lines"]]) %>%
 
 ### colours ###
 
-background_color<-'#FAEBD7'
+background_color<-'#F9F7EB'
 
 metro1_color <- '#389CD2'
 metro2_color <- "#E6442E"
